@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-c : white;
+    --black-c: black;
+    --midData-b-c: rgb(65, 65, 195);
+    --midData-b-c-h :#0102fa;
+    --nav-a-c:rgba(66, 255, 23, 0.386);
+    --inputAllboBG: #f8f8f8;
+    --blue : #4e4ffa;
+    --boxCarText-c : #2378c0;
+    --color-b :  rgba(0, 0, 0, 0.146);
+    --box-hover :rgba(22, 22, 228, 0.719);
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* scroll-padding-top: 300px; */
+    scroll-padding-top: var(--scroll-padding , 30rem);
+}
+
+body{
+    height: 500vh;
+}
+.bg{
+    background: url("https://i.pinimg.com/originals/b1/22/59/b12259690a81d10422288d253119811a.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 130dvh;
+}
+
+@media (width : 992px) {
+    .bg{
+        height: 130svh;
+    }   
+}
+
+

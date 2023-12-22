@@ -1,0 +1,249 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.footer {
+    position: relative;
+    background-color: #2a2d54;
+    height: auto;
+    padding: 10rem clamp(0.1rem, 5vw, 10rem);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.f_data {
+    display: -ms-grid;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(28em, 1fr));
+
+}
+
+.same {
+    height: 35rem;
+    color: var(--white-c);
+}
+
+.same h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first_data .a p {
+    width: 27rem;
+}
+
+.third_data>.a .a2 a:hover {
+    margin-left: 1rem !important;
+}
+
+.second_data>.a .a2 a:hover {
+    margin-left: 1rem !important;
+}
+
+.second_data>.a .a2 a:hover {
+    -webkit-transition: 0.2s ease-in-out !important;
+    -o-transition: 0.2s ease-in-out !important;
+    transition: 0.2s ease-in-out !important;
+
+}
+
+.second_data, .third_data>.a .a2 a:hover {
+    -webkit-transition: 0.2s ease-in-out !important;
+    -o-transition: 0.2s ease-in-out !important;
+    transition: 0.2s ease-in-out !important;
+}
+
+.same:has(.nmber) p {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    opacity: 0.9;
+
+}
+
+.same .nmber {
+    margin: 1.5rem 0rem;
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.same:has(.nmber) h3 {
+    font-weight: 500;
+    padding: 0%;
+    font-size: 3rem !important;
+}
+
+.same:has(.nmber) .a {
+    line-height: 2rem;
+}
+
+.same .a {
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    line-height: 4rem;
+}
+
+.same:has(.a2)>.a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 8rem;
+
+}
+
+.a2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+}
+
+.a a {
+    font-size: 1.5rem;
+    font-weight: 200;
+    opacity: 0.7;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.same .email {
+    margin-top: 5rem;
+}
+
+.email p {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    text-transform: capitalize;
+}
+
+.email input {
+    margin: 4rem 0rem;
+    width: 25rem;
+    height: 4rem;
+    background-color: #26294d !important;
+    outline: none;
+    border-radius: 0.5ren;
+    -webkit-box-shadow: 0 1px 15px #242749, -0 -1px 15px #242749;
+            box-shadow: 0 1px 15px #242749, -0 -1px 15px #242749;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    caret-color: yellow;
+}
+
+input:focus {
+    color: var(--white-c);
+    text-transform: capitalize;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+.email input:focus::-webkit-input-placeholder {
+    color: #26294d;
+}
+
+.email input:focus::-moz-placeholder {
+    color: #26294d;
+}
+
+.email input:focus:-ms-input-placeholder {
+    color: #26294d;
+}
+
+.email input:focus::-ms-input-placeholder {
+    color: #26294d;
+}
+
+.email input:focus::placeholder {
+    color: #26294d;
+}
+
+.email input:hover {
+    -webkit-box-shadow: 0 05px 15px #20233c, -0 -05px 15px #20233c;
+            box-shadow: 0 05px 15px #20233c, -0 -05px 15px #20233c;
+}
+
+.email input::-webkit-input-placeholder {
+    text-transform: capitalize;
+    padding: 1rem 1rem;
+}
+
+.email input::-moz-placeholder {
+    text-transform: capitalize;
+    padding: 1rem 1rem;
+}
+
+.email input:-ms-input-placeholder {
+    text-transform: capitalize;
+    padding: 1rem 1rem;
+}
+
+.email input::-ms-input-placeholder {
+    text-transform: capitalize;
+    padding: 1rem 1rem;
+}
+
+.email input::placeholder {
+    text-transform: capitalize;
+    padding: 1rem 1rem;
+}
+
+.fotter_last {
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+}
+
+.fotter_last .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.flex p {
+    color: var(--white-c);
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    opacity: 0.5;
+}
+
+.flex .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+    color: #a5a7c3;
+}
+
+hr.hr {
+    border-top-color: #434859;
+}
