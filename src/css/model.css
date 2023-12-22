@@ -1,0 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 0.5rem;
+    max-width: 100%;
+    place-items: center;
+    padding: 5rem clamp(1rem, 10vw, 15rem);
+}
+
+.container .img {
+    padding: 5rem 3rem;
+    height: 20rem;
+}
+
+.container img {
+    width: 100%;
+}
+
+.carMoel {
+    font-size: 1.2rem;
+    border: 1px solid var(--color-b);
+}
+
+.carinfo {
+    border-top: 1px solid var(--color-b);
+    padding: 1rem 0.8rem;
+    line-height: 2rem;
+    opacity: 0.7;
+}
+
+.boxCar {
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.boxCarText {
+    padding: 1rem 0rem;
+}
+
+.boxCarText :not(p) {
+    font-weight: 500;
+}
+
+.boxCarText h2 {
+    font-size: 2rem;
+    color: var(--boxCarText-c);
+}
+
+.boxCarText h3 {
+    font-size: 1.5rem;
+}
+
+.boxCarText :is(h3, p) {
+    margin-top: 1rem;
+}
+
+.boxCarText p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    opacity: 0.7;
+    text-align: justify;
+    overflow: hidden;
+    font-variant: small-caps;
+}
